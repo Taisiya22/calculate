@@ -19,7 +19,7 @@ data = {
     price: 0,
     quantity: 0,
     calculateTotal() { 
-        return this.price * this.quantity
+        return (this.price * this.quantity).toFixed(2);
     }
 
 }
